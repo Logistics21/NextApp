@@ -6,7 +6,7 @@ import Inventory from './inventory';
 const App = () => (
   <div className='body-container'>
     <div className='menu'>
-      <Header />
+      <Header tagline="Fresh SeaFood" />
     </div>
       <Order />
       <Inventory />
