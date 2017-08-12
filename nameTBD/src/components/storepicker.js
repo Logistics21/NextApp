@@ -8,13 +8,18 @@ class StorePicker extends React.Component {
 
   // }
 
-  render(){
-    return <h2>Hello</h2>
+  render() {
+    return (<form className="store-selector">
+      { /* Hello */ }
+      <h2>Please Enter A Store</h2>
+      <input type='text' placeholder='Store Name'/>
+      <button type='submit'>Vist Store →</button>
+    </form>
+    )
   }
 }
 
-render(<StorePicker/>, document.getElementById('main'))
-// ReactDom.render()
-// no longer needed as we didn't import all of ReactDom
+export default StorePicker;
 
-export
+// comments should not be put at the top level of the return statement
+// either put them above or inside the return element
